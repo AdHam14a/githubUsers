@@ -8,7 +8,7 @@
 ## Setup Instructions:
 #### 1. Clone the repository
     git clone https://github.com/AdHam14a/githubUsers.git
-    cd github-users-explorer
+    cd githubUsers
 
 #### 2. Install dependencies
     npm install
