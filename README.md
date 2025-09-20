@@ -1,25 +1,25 @@
-GitHub Users Explorer
+# GitHub Users Explorer
 
-A React + Redux Toolkit project to fetch GitHub users, display them with pagination, search, and favorite management with persistence.
+### A React + Redux Toolkit project to fetch GitHub users, display them with pagination, search, and favorite management with persistence.
 
-Live Demo : https://github-public-users.netlify.app/
+*Live Demo* : https://github-public-users.netlify.app/
 
 
-Setup Instructions:
-1. Clone the repository
+## Setup Instructions:
+#### 1. Clone the repository
     git clone https://github.com/AdHam14a/githubUsers.git
     cd github-users-explorer
 
-2. Install dependencies
+#### 2. Install dependencies
     npm install
 
-3. Start the development server
+#### 3. Start the development server
     npm run dev
 
-4. Build for production
+#### 4. Build for production
     npm run build
 
-Technical Design Rationale:
+## Technical Design Rationale:
 
 1. React + Redux Toolkit: Used for predictable state management (favorites persistence in localStorage).
 
@@ -35,7 +35,7 @@ Technical Design Rationale:
 
 7. Favorites Feature: Users can be toggled as favorites, with persistence via localStorage.
 
-Features:
+## Features:
 
   ✅ Fetches GitHub users via API
   
@@ -49,13 +49,13 @@ Features:
   
   ✅ Meaningful error messages for better UX
 
-Code Review Notes:
+## Code Review Notes:
 
-  Clean component structure (Home, Favorites, Landing, Search, Pagination).
+  - Clean component structure (Home, Favorites, Landing, Search, Pagination).
   
-  Good use of Redux Toolkit slices (favoritesSlice) with persistence.
+  - Good use of Redux Toolkit slices (favoritesSlice) with persistence.
   
-  Debounced search improves performance.
+  - Debounced search improves performance.
   
-  Tailwind dark mode integration applied consistently.
+  - Tailwind dark mode integration applied consistently.
 
